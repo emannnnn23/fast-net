@@ -1,0 +1,91 @@
+* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.custom-background {
+    background-color: #090e0a !important; /* Replace with your desired color */
+    padding: 20px; /* Optional: add padding to space content from edges */
+    border-radius: 8px; /* Optional: add rounded corners */
+}
+
+.carousel-inner img{
+     height: 500px; /* Adjust as needed */
+     width: 100px;
+     border: 2px solid #020302;
+     
+        object-fit: fill;
+}
+        /* Set entire page background to black */
+body {
+    background: linear-gradient(to right, #23e564, #38b6ff) ;
+    color: rgb(249, 248, 253); /* Optional: makes text white for better readability */
+}
+
+    
+    
+
+
+.hero-section {
+    background: linear-gradient(to right, #23e564, #38b6ff);
+    padding: 80px 0;
+}
+
+.jumbotron h1 {
+    font-size: 2.5rem;
+}
+
+#services, #pricing, #testimonials, #contact {
+    background: #37d767 !important;
+    border-radius: 10px !important;
+    
+    
+    padding: 10px !important;
+
+
+}
+
+/* Styling for the pricing cards */
+.pricing-card {
+    background-color: #020302;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+}
+
+/* Button-like shadow and hover effect */
+.pricing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(245, 242, 242, 0.2);
+    border-color: #d2dae2;
+}
+
+/* Inside button styling */
+.pricing-card .btn {
+    background-color: #3498db;
+    border: none;
+    color: rgb(240, 251, 246);
+    font-size: 1rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.pricing-card .btn:hover {
+    background-color: #2c3e50;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #240f0f;
+    color: white;
+}
